@@ -1,0 +1,56 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.list {
+	display: flex;
+	
+	align-items: center;
+	row-gap: 0px;
+	column-gap: 65px;
+	flex-wrap: wrap;
+}
+
+.skills {
+	padding-right: 37px;
+}
+
+.Btn {
+	background-color: rgba(255, 238, 0, 0.788);
+	font-size: 18px;
+}
